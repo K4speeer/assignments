@@ -6,8 +6,8 @@
     border: 2px solid red;
     background: coral;
     position: relative;
-    /* float: right; */
-    left: 67%;
+    float: right;
+    /* left: calc(100% - 33%); */
     text-align: center;
     width: 33%;
     font-size: 20px;
