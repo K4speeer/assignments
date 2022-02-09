@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titleBox{
+    border: 2px solid red;
+    background: coral;
+    position: relative;
+    /* float: right; */
+    left: 67%;
+    text-align: center;
+    width: 33%;
+    font-size: 20px;
+    
+}
+#sushi{
+    border-color: green;
+    background-color: whitesmoke;
+    color: rgb(252, 77, 58);
+}
+#beef{
+    background-color: rgb(220, 72, 72);
+    border-color: black;
+}
+#chicken{
+    color: rgb(255, 218, 143);
+}
+.row{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-l-4{
+    float: left;
+    
+}
+
+.discription{
+    clear: both;
+    padding: 8px;
+    font-size: 16px;
+}
+.centralItem{
+    text-align: center;
+    font-size: 25px;
+}  
+.infoBox{
+    margin: 10px;
+    background-color: #F9E4B7;
+    border: 1px solid chocolate;
+}
+/*L-size devices (desktops)*/
+@media (min-width: 992px){
+    .col-l-4{
+        width: 33.33%;
+    }
+}
+
+/*M-size devices (Tablets)*/
+@media (max-width: 991px) and (min-width: 768px){
+    .col-m-6{
+        width: 50%;
+    }
+}
+
+/*S-size devices (Mobile Phones)*/
+@media (max-width: 767px){
+    .col-s-12{
+        width: 100%;
+    }
+}
