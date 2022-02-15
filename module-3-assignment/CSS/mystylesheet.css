@@ -15,11 +15,12 @@
   margin-bottom: 15px;
 }
 
-#discription{
+#mainTextTitle{
   font-size: 1.2em;
   color: white;
   margin-top: 15px;
   margin-bottom: 15px;
+  background-color: gray;
 }
 
 section{
@@ -29,13 +30,27 @@ section{
 .row{
   margin-left: 5%;
   margin-right: 5%;
-  background-color: cornsilk;
+
 }
-#textArea{
+p{
   padding: 0% 5%;
   font-size: 0.9em;
   color: white;
+  background-color: inherit;
 }
-.col-sm-12 , #discription , p{
+
+.backBtn{
+  color: black;
+  font-size: 0.6em;
+  margin: 15px;
+}
+
+.textField{
+  padding: 8px;
+  margin-bottom: 50px;
   background-color: gray;
+}
+#middleBtn{
+  width: 100px;
+  margin-bottom: 25px;
 }
